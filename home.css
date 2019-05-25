@@ -1,0 +1,92 @@
+body{
+    padding-bottom: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a:focus {
+    text-decoration: none;
+  }
+  a:hover,
+  a:active {
+    text-decoration: none;
+  }
+
+.main{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#ecf0f1;
+}
+
+
+.list{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    padding: 0 130px;
+    position: relative;
+    flex-wrap: wrap;
+
+    justify-content: flex-start;
+
+}
+  
+.bookcard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    height: 220px;
+    padding-bottom: 30px;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 50px 30px 20px 30px;
+    border: 2px #95a5a6 solid;
+}
+
+.container{
+    display: flex;
+    width : 100%;
+    justify-content: center;
+}
+
+.name{
+    display: flex;
+    text-align: center;
+}
+
+.tag h5{
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content h5{
+    display:flex;
+    text-align: center;
+    margin : 0;
+}
+
+.bookcard a{
+    display: flex;
+    height: fit-content;
+    align-content: center;
+    color: black;
+    text-decoration: none;
+
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
